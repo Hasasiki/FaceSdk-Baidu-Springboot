@@ -1,0 +1,4 @@
+face-sdk:
+  enable: true
+  libPath: facelib
+  imagesPath: images
