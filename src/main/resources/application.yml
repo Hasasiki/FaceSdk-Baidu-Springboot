@@ -1,4 +1,4 @@
 face-sdk:
   enable: true
-  libPath: facelib
+  libPath: C:\\Users\\Revensto\\IdeaProjects\\facesdk\\facelib\\
   imagesPath: images
