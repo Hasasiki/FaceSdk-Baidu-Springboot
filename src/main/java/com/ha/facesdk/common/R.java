@@ -148,4 +148,9 @@ public class R<T> implements Serializable {
         return new R().setCode(INTERNAL_SERVER_ERROR)
                 .setMessage(e.getMessage());
     }
+
+    public static R faild(String s){
+        return new R().setCode(INTERNAL_SERVER_ERROR)
+                .setMessage(s);
+    }
 }
